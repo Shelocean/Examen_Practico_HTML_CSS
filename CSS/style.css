@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(47, 77, 115);
+    color:rgb(255, 255, 255);
+}
+
+header {
+    background-color:rgb(14, 46, 83);
+    color:rgb(248, 246, 246);
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(19, 18, 79);
+}
+
+nav a {
+    color:rgb(255, 252, 252);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+
+main {
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+img {
+    width:600px;
+}
+
+section {
+    padding: 40px;
+    width: 100%;
+    background-color: rgb(46, 54, 108);
+    margin-top: 40px;
+    border-radius: 30px;
+    
+}
+
+form {
+    background-color: rgb(7, 12, 53);
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px 15px;
+    flex: 1 1 300px;
+    margin-top: 40px;
+}
+
+fieldset {
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #1675d4;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+footer {
+    width: 100%;
+    background: #03021c;
+    color:rgb(255, 254, 254);
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 2px;
+}
